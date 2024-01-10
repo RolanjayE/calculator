@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    background-color: rgb(220, 237, 244);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+} 
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(25, 24, 24);
+    border-radius: 5px;
+}
+
+form input {
+    background-color: rgb(74, 74, 74);
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.main-search input {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+.btn-input-con {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.btn-input-con input {
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-input-con input:hover {
+    background-color: black;
+}
